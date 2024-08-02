@@ -1,94 +1,93 @@
+/* Base styles for desktop */
 .users-page {
-    position: relative;
-    min-height: 90.2vh;
-    width: 102.4%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: -20px;
-  }
+  position: relative;
+  min-height: 90.2vh;
+  width: 102.4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: -20px;
+}
 
-  .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202405/0319/34db069bbe7c820b006fdf4ffb894e50e2e1020de3d7c296.png?w=1920&thumb=false');
-    /* background-size: cover; */
-    background-position: center;
-    object-fit: cover;
-    z-index: -1;
-  }
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202405/0319/34db069bbe7c820b006fdf4ffb894e50e2e1020de3d7c296.png?w=1920&thumb=false');
+  background-position: center;
+  object-fit: cover;
+  z-index: -1;
+}
 
-  .wallpaper-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://www.heartlandcollegesports.com/wp-content/uploads/2024/01/EA-Sports-College-Football-Logo-1536x864.jpg');
-    background-position: center;
-    object-fit: cover;
-    z-index: -1;
-  }
+.wallpaper-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.heartlandcollegesports.com/wp-content/uploads/2024/01/EA-Sports-College-Football-Logo-1536x864.jpg');
+  background-position: center;
+  object-fit: cover;
+  z-index: -1;
+}
 
-  .awards-wallpaper-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://staticg.sportskeeda.com/editor/2023/09/dcf14-16946863321799-1920.jpg');
-    background-position: center;
-    object-fit: cover;
-    z-index: -1;
-  }
+.awards-wallpaper-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://staticg.sportskeeda.com/editor/2023/09/dcf14-16946863321799-1920.jpg');
+  background-position: center;
+  object-fit: cover;
+  z-index: -1;
+}
 
-  .background-user-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-  }
+.background-user-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
 
-  .content {
-    position: relative;
-    padding: 2rem;
-    z-index: 1;
-  }
+.content {
+  position: relative;
+  padding: 2rem;
+  z-index: 1;
+}
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
+ul {
+  list-style: none;
+  padding: 0;
+}
 
-  li {
-    margin-bottom: 0.5rem;
-  }
+li {
+  margin-bottom: 0.5rem;
+}
 
-  a {
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
+a {
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
-  a:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  .user-logo {
-    width: 300px;
-    height: auto;
-  }
-
+.user-logo {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* This maintains the aspect ratio */
+}
 
 .coach-heading {
   font-size: 3em;
@@ -97,4 +96,123 @@
   text-shadow: 2px 2px 0 black;
   font-family: 'Indie Flower', cursive;
   color: inherit;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 0 black;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar-left a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-left a:hover {
+  text-decoration: underline;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-gif {
+  width: 50px;
+  height: auto;
+}
+
+/* Media queries for phones */
+@media (max-width: 768px) {
+  .users-page {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .background-image,
+  .wallpaper-image,
+  .awards-wallpaper-image,
+  .background-user-image {
+    background-size: cover;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 0.3rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  .user-logo {
+    width: 100px; /* Adjust the width for smaller screens */
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-left a {
+    margin: 0.5rem 0;
+  }
+
+  .navbar-gif {
+    width: 30px; /* Smaller size for the gif on phones */
+  }
+
+  .coach-heading {
+    font-size: 2em; /* Adjust the font size for smaller screens */
+  }
 }
