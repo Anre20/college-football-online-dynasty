@@ -1,0 +1,68 @@
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  .teamFont {
+    text-align: center;
+    text-shadow: 2px 2px 0 black;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+  }
+
+
+  p {
+    color: white !important;
+    text-align: center;
+    text-shadow: 2px 2px 0 black;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+
+  }
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+
+  .navbar-left a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .navbar-left a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-gif {
+    width: 50px;
+    height: auto;
+  }
