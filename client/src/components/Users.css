@@ -46,6 +46,19 @@
   z-index: -1;
 }
 
+.rules-wallpaper-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/163435/american-football-referee-team-american-football-field-163435.jpeg?cs=srgb&dl=pexels-pixabay-163435.jpg&fm=jpg');
+  background-position: center;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
 .background-user-image {
   position: absolute;
   top: 0;
