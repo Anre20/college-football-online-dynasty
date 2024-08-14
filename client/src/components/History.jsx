@@ -17,6 +17,8 @@ const History = () => {
           <h2>User Games</h2>
           <p>Coach <a href="/users/66a3c51413095928ca860577">Anre</a>'s Purdue Boilermakers defeated Coach <a href="/users/66a3c5d413095928ca860585">Henry</a>'s Arizona Wildcats by a final score of 42-35.</p>
           <p>Coach <a href="/users/66a3c5f313095928ca860587">Armstrong</a>'s Memphis Tigers defeated Coach <a href="/users/66a3c57b13095928ca86057d">Joey</a>'s Syracuse Orangemen by a final score of 35-28.</p>
+          <p>Coach <a href="/users/66a3c55e13095928ca86057b">Dustin</a>'s Colorado Buffaloes defeated Coach <a href="/users/66a3c5d413095928ca860585">Henry</a>'s Arizona Wildcats by a final score of 31-0.</p>
+          <p>Coach <a href="/users/66a3c60413095928ca860589">Preston</a>'s SMU Mustangs defeated Coach <a href="/users/66a3c51413095928ca860577">Anre</a>'s Purdue Boilermakers by a final score of 35-28.</p>
           <h2>Awards</h2>
           <p>To Be Announced</p>
           <h2>Bowl Wins</h2>
