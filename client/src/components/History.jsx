@@ -15,14 +15,14 @@ const History = () => {
   const historyData = {
       "2024": <>
           <h2>User Games</h2>
-          <p>Coach <a href="/users/66a3c51413095928ca860577">Anre</a>'s Purdue Boilermakers defeated Coach <a href="/users/66a3c5d413095928ca860585">Henry</a>'s Arizona Wildcats by a final score of 42-35.</p>
+          <p>Coach <a href="/users/66be16c5ae4b25f0f30c8bf7">Anre</a>'s Purdue Boilermakers defeated Coach <a href="/users/66a3c5d413095928ca860585">Henry</a>'s Arizona Wildcats by a final score of 42-35.</p>
           <p>Coach <a href="/users/66a3c5f313095928ca860587">Armstrong</a>'s Memphis Tigers defeated Coach <a href="/users/66a3c57b13095928ca86057d">Joey</a>'s Syracuse Orangemen by a final score of 35-28.</p>
           <p>Coach <a href="/users/66a3c55e13095928ca86057b">Dustin</a>'s Colorado Buffaloes defeated Coach <a href="/users/66a3c5d413095928ca860585">Henry</a>'s Arizona Wildcats by a final score of 31-0.</p>
-          <p>Coach <a href="/users/66a3c60413095928ca860589">Preston</a>'s SMU Mustangs defeated Coach <a href="/users/66a3c51413095928ca860577">Anre</a>'s Purdue Boilermakers by a final score of 35-28.</p>
+          <p>Coach <a href="/users/66a3c60413095928ca860589">Preston</a>'s SMU Mustangs defeated Coach <a href="/users/66be16c5ae4b25f0f30c8bf7">Anre</a>'s Purdue Boilermakers by a final score of 35-28.</p>
           <p>Coach <a href="/users/66a3c5c113095928ca860583">Chris</a>'s Coastal Carolina Chanticleers defeated Coach <a href="/users/66a7a881432941f2c6f75f2b">Cory</a>'s Troy Trojans by a final score of 65-7.</p>
           <p>Coach <a href="/users/66a3c5c113095928ca860583">Chris</a>'s Coastal Carolina Chanticleers defeated Coach <a href="/users/66a3c61613095928ca86058b">Carlos</a>'s UCF Knights by a final score of 61-17.</p>
           <p>Coach <a href="/users/66a3c60413095928ca860589">Preston</a>'s SMU Mustangs defeated Coach <a href="/users/66a3c55e13095928ca86057b">Dustin</a>'s Colorado Buffaloes by a final score of 49-28.</p>
-          <p>Coach <a href="/users/66a3c51413095928ca860577">Anre</a>'s Purdue Boilermakers defeated Coach <a href="/users/66a3c60413095928ca860589">Preston</a>'s SMU Mustangs by a final score of 45-0 in the Rose Bowl.</p>
+          <p>Coach <a href="/users/66be16c5ae4b25f0f30c8bf7">Anre</a>'s Purdue Boilermakers defeated Coach <a href="/users/66a3c60413095928ca860589">Preston</a>'s SMU Mustangs by a final score of 45-0 in the Rose Bowl.</p>
           <h2>Awards</h2>
           <p>CJ Smith of the Purdue Boilermakers won the Heisman Trophy!</p>
           <p>CJ Smith of the Purdue Boilermakers won Player of the Year!</p>
